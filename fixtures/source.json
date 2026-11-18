@@ -24,6 +24,34 @@
           }
         }
       ]
+    },
+    {
+      "method": "POST",
+      "path": "/session/company",
+      "responses": [
+        {
+          "body": {
+            "company": "CO-A",
+            "context": "CTX-A",
+            "delegation": [
+              "filing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/drafts/DR-A/submit",
+      "responses": [
+        {
+          "body": {
+            "draft": "DR-A",
+            "owner": "CO-A",
+            "receipt": "ACK-A"
+          }
+        }
+      ]
     }
   ]
 }
