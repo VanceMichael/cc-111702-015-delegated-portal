@@ -1,0 +1,29 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drafts/DR-A",
+      "responses": [
+        {
+          "body": {
+            "company": "CO-A",
+            "context": "CTX-A",
+            "delegation": [
+              "filing"
+            ],
+            "draft": "DR-A",
+            "owner": "CO-A",
+            "attachments": [
+              {
+                "id": "UP-A",
+                "name": "资料.pdf",
+                "owner": "CO-A"
+              }
+            ],
+            "receipt": "ACK-A"
+          }
+        }
+      ]
+    }
+  ]
+}

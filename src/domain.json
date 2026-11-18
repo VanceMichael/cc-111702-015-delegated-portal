@@ -1,0 +1,15 @@
+{
+  "initial": {
+    "mandates": {
+      "CO-A": [
+        "filing"
+      ]
+    },
+    "contexts": {},
+    "drafts": {}
+  },
+  "route": {
+    "method": "GET",
+    "path": "/drafts/DR-A"
+  }
+}
