@@ -1,0 +1,41 @@
+[
+  {
+    "name": "企业串用",
+    "changes": {
+      "company": "CO-B"
+    }
+  },
+  {
+    "name": "草稿串用",
+    "changes": {
+      "draft": "DR-B"
+    }
+  },
+  {
+    "name": "材料串用",
+    "changes": {
+      "attachments": [
+        {
+          "id": "UP-A",
+          "name": "资料.pdf",
+          "owner": "CO-B"
+        }
+      ]
+    }
+  },
+  {
+    "name": "材料身份重复",
+    "changes": {
+      "attachments": [
+        {
+          "id": "U",
+          "owner": "CO-A"
+        },
+        {
+          "id": "U",
+          "owner": "CO-A"
+        }
+      ]
+    }
+  }
+]
